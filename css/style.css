@@ -1,0 +1,537 @@
+/* All Common CSS Starts */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul, li{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.full_wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.mr{
+    margin-right: 0 !important;
+}
+.mb{
+    margin-bottom: 0 !important;
+}
+
+/* All Common CSS Ends */
+/* Header Starts */
+
+.header{
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.logo{
+    width: 100px;
+    float: left;
+    padding-top: 35px;
+}
+.menu{
+width: 900px;
+text-align: right;
+float: left;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+color: #f5f5f5;
+font-size: 14px;
+font-weight: 100;
+font-family: 'Roboto Condensed', sans-serif;
+text-transform: uppercase;
+padding-left: 40px;
+line-height: 100px;
+transition: all linear 0.5s;
+}
+.menu ul li a:hover {
+color: aqua;
+}
+
+/* Header Ends */
+/* Banner Starts */
+
+.banner{
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 320px;
+    padding-bottom: 250px;
+}
+.banner_text{
+    text-align: center;
+}
+.banner_text h3{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.banner_text h4{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner_text p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Banner Ends */
+/* <!-- Service Starts */
+
+.service{
+    background: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.service_text{
+    text-align: center;
+}
+.service_text h3{
+    color: #444444;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+.service_text p{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+.service_text h4{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.service_item{
+    width: 368px;
+    padding: 15px;
+    border: 1px Solid #e3e3e3;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+.service_item_img img{
+    width: 100%;
+}
+.service_item_text{
+    text-align: center;
+}
+.service_item_text h3{
+    color: #444444;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.service_item_text p{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    width: 295px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    line-height: 22px;
+}
+
+/* <!-- Service Ends */
+/* Instagram Part Start */
+
+.instagram{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #2c2c2c;
+}
+.insta_text{
+    text-align: center;
+    padding-bottom: 45px;
+}
+.insta_text h3{
+    color: #d5d5d5;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+.insta_text h3:after{
+    height: 1px;
+    width: 100px;
+    background: #535353;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: -115px;
+}
+.insta_text h3:before{
+    height: 1px;
+    width: 100px;
+    background: #535353;
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: -115px;
+}
+.insta_img{
+    width: 25%;
+    float: left;
+}
+.insta_img img{
+    width: 100%;
+}
+.insta_image{
+    padding-bottom: 60px;
+}
+.insta_btn{
+    text-align: center;
+}
+.insta_btn a{
+    padding: 18px 20px;
+    border: 1px solid #797979;
+    border-radius: 3px;
+    color: #a6a6a6;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.insta_btn i{
+    color: #9d9d9d;
+    font-size: 15px;
+    margin-right: 7px;
+}
+
+/* Instagram Part End */
+/* Blog Part Start */
+
+.blog{
+    padding-top: 80px;
+}
+.blog_text h3{
+    color: #444444;
+}
+.blog_item{
+    padding: 25px 0px;
+    border: 1px solid #e3e3e3;
+    width: 368px;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+.blog_txt{
+    text-align: center;
+}
+.blog_txt h3{
+    color: #444444;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+.blog_txt h4{
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    padding-top: 12px;
+    padding-bottom: 22px;
+}
+.blog_down_text{
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+}
+.blog_down_text p{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+}
+.blog_last{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.blog_left a{
+    text-transform: uppercase;
+    border-bottom: 1px solid #28b8d8;
+    color: #999999;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.blog_left{
+    float: left;
+}
+.blog_right{
+    float: right;
+}
+.blog_right h6{
+    color: #999999;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.blog_right i{
+    margin-right: 7px;
+}
+.blog_part{
+    padding-bottom: 40px;
+}
+
+/* Blog Part End */
+/* About Part Start */
+
+.about{
+    padding-top: 80px;
+    background: #f9f9f9;
+}
+.my_about{
+    width: 570px;
+    float: left;
+    margin-right: 30px;
+}
+.my_service{
+    width: 570px;
+    float: left;
+}
+.my_about_head{
+    padding-bottom: 30px;
+}
+.my_about_head h3{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+.my_about_head h3:after{
+    height: 1px;
+    width: 100px;
+    background: #d9d9d9;
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 315px;
+}
+.my_about_img{
+    width: 197px;
+    float: left;
+    margin-right: 28px;
+}
+.my_about_img img{
+    width: 100%;
+}
+.my_about_txt{
+    width: 345px;
+    float: left;
+}
+.my_about_txt h4{
+    color: #666666;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 25px;
+    line-height: 28px;
+}
+.my_about_txt p{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    line-height: 24px;
+}
+.my_service_icon{
+    width: 45px;
+    float: left;
+    margin-right: 25px;
+}
+.my_service_txt{
+    width: 455px;
+    float: left;
+}
+.my_service_txt h3{
+    color: #444444;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 15px;
+}
+.my_service_txt p{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    line-height: 22px;
+}
+.my_ser_item{
+    margin-bottom: 25px;
+}
+
+/* About Part End */
+/* End Post Start */
+
+.post{
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background: #373737;
+}
+.my_post_one{
+    width: 257px;
+    float: left;
+}
+.my_post_one_head h3{
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 24px;
+}
+.my_post_one_item p{
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+.my_post_one_item a{
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    line-height: 24px;
+    width: 200px;
+}
+.my_post_one_item i{
+    margin-right: 16px;
+}
+.my_post_two{
+    width: 225px;
+    float: left;
+    margin-left: 44px;
+}
+.my_post_two_head h3{
+    padding-bottom: 22p;
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+.my_post_two_item p{
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    line-height: 24px;
+    padding-top: 24px;
+}
+.my_post_three{
+    width: 212px;
+    float: left;
+    margin-left: 80px;
+}
+.my_post_three_head h3{
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+.m_p_t_i_one p{
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    line-height: 22px;
+    padding-bottom: 7px;
+}
+.m_p_t_i_one h5{
+    color: #929292;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+}
+.m_p_t_i_one{
+    padding-top: 24px;
+}
+.my_post_four{
+    width: 248px;
+    float: left;
+    margin-left: 95px;
+}
+.my_post_four h3{
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 22p;
+}
+.my_post_four p{
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    line-height: 22px;
+    padding-top: 24px;
+}
+
+/* End Post End */
+/* Finishing Part Start */
+
+.finishing{
+    background: #333333;
+}
+.finishing p{
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    padding-top: 38px;
+    padding-bottom: 36px;
+}
+
+/* Finishing Part End */
